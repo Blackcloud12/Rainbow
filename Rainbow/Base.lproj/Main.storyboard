@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccQ-eN-vPe">
+                                <rect key="frame" x="126" y="165" width="123" height="47"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleColor" red="0.17753406269999999" green="0.99833733970000005" blue="0.26513996950000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button2Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="PdC-ea-XZf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="in3-dU-cMp">
+                                <rect key="frame" x="126" y="232" width="123" height="47"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Button 3">
+                                    <color key="titleColor" red="0.45501039049999997" green="0.061825050020000001" blue="0.61045673079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5V-IG-lrC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POw-mV-ZDD">
+                                <rect key="frame" x="126" y="299" width="123" height="47"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Button 4">
+                                    <color key="titleColor" red="0.37647058820000001" green="0.1176470588" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="tGY-B0-gUF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxC-Kf-x4R">
+                                <rect key="frame" x="126" y="366" width="123" height="47"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Button 5">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button5Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="pi9-8b-gku"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3E-y8-tZ0">
+                                <rect key="frame" x="126" y="433" width="123" height="47"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Button 6">
+                                    <color key="titleColor" red="0.93656009435653687" green="0.5710262656211853" blue="0.19854742288589478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button6Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kcj-ut-bP8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDG-uK-EHT">
+                                <rect key="frame" x="126" y="98" width="123" height="47"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAC-Nu-Jo8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="POw-mV-ZDD" firstAttribute="top" secondItem="in3-dU-cMp" secondAttribute="bottom" constant="20" id="0nx-LW-wNV"/>
+                            <constraint firstItem="in3-dU-cMp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="8nn-7d-tRW"/>
+                            <constraint firstItem="JDG-uK-EHT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AJD-BP-WpW"/>
+                            <constraint firstItem="POw-mV-ZDD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="BAq-CA-4Ts"/>
+                            <constraint firstItem="l3E-y8-tZ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BIK-dQ-yxg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AxC-Kf-x4R" secondAttribute="trailing" constant="126" id="Hsl-zp-hON"/>
+                            <constraint firstItem="JDG-uK-EHT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="KCJ-Ch-dp5"/>
+                            <constraint firstItem="JDG-uK-EHT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="OiS-bp-ePr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ccQ-eN-vPe" secondAttribute="trailing" constant="126" id="R92-MW-TSi"/>
+                            <constraint firstItem="in3-dU-cMp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tnj-fJ-2t4"/>
+                            <constraint firstItem="ccQ-eN-vPe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="VZX-EE-iaZ"/>
+                            <constraint firstItem="l3E-y8-tZ0" firstAttribute="top" secondItem="AxC-Kf-x4R" secondAttribute="bottom" constant="20" id="WHK-U3-is2"/>
+                            <constraint firstItem="POw-mV-ZDD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XYE-ZX-QHs"/>
+                            <constraint firstItem="l3E-y8-tZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="Ymm-bJ-wVp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JDG-uK-EHT" secondAttribute="trailing" constant="126" id="cNI-eL-3GH"/>
+                            <constraint firstItem="AxC-Kf-x4R" firstAttribute="top" secondItem="POw-mV-ZDD" secondAttribute="bottom" constant="20" id="e7n-fm-PcT"/>
+                            <constraint firstItem="AxC-Kf-x4R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="gNz-6C-8sj"/>
+                            <constraint firstItem="ccQ-eN-vPe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gqR-YY-3Di"/>
+                            <constraint firstItem="ccQ-eN-vPe" firstAttribute="top" secondItem="JDG-uK-EHT" secondAttribute="bottom" constant="20" id="kjZ-VG-rnJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l3E-y8-tZ0" secondAttribute="trailing" constant="126" id="pbd-jP-xIA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="in3-dU-cMp" secondAttribute="trailing" constant="126" id="raK-Hm-v57"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="POw-mV-ZDD" secondAttribute="trailing" constant="126" id="sfB-dG-BrS"/>
+                            <constraint firstItem="in3-dU-cMp" firstAttribute="top" secondItem="ccQ-eN-vPe" secondAttribute="bottom" constant="20" id="wBc-9z-1Sc"/>
+                            <constraint firstItem="AxC-Kf-x4R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zdS-OV-aTt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="JDG-uK-EHT" id="g9f-Do-PtV"/>
+                        <outlet property="button2" destination="ccQ-eN-vPe" id="qZu-wQ-Kxn"/>
+                        <outlet property="button3" destination="in3-dU-cMp" id="uSW-ez-ePw"/>
+                        <outlet property="button4" destination="POw-mV-ZDD" id="JH5-ON-LLp"/>
+                        <outlet property="button5" destination="AxC-Kf-x4R" id="ToV-21-odv"/>
+                        <outlet property="button6" destination="l3E-y8-tZ0" id="vaM-Ul-Kj8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
